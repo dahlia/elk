@@ -30,7 +30,7 @@ const countryLocaleVariants: Record<string, LocaleObjectData[]> = {
     // { code: 'ar-YE', name: 'Arabic (Yemen)' },
   ],
    ckb: [ 
-    { code: 'ar-EG', name: 'کوردی ناوەندی' },
+    { code: 'ar-EG', name: 'کوردیی ناوەندی' },
   ],
   en: [
     { code: 'en-US', name: 'English (US)' },
@@ -80,7 +80,7 @@ const locales: LocaleObjectData[] = [
    ({
     code: 'ckb',
     file: 'ckb.json',
-    name: 'کوردی ناوەندی',
+    name: 'کوردیی ناوەندی',
     dir: 'rtl',
     pluralRule: (choice: number) => {
       const name = new Intl.PluralRules('ckb').select(choice)
